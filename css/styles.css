@@ -220,10 +220,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.team-picture {
-  background: url(<path-to-image>),
-    lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-}
+
 .teamlist-name {
   color: #2e2f42;
   text-align: center;
