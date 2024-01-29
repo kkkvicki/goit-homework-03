@@ -166,13 +166,13 @@ img {
 /* /////////Header Style */
 
 .visually-hidden {
-  margin: -1px;
-  border: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
   overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 .list {
   padding: 120px 0;
