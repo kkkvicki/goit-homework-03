@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
 ul {
   list-style-type: none;
   margin-top: 0;
@@ -12,6 +18,9 @@ body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
+}
+button {
+  cursor: pointer;
 }
 p,
 h1,
@@ -29,12 +38,17 @@ img {
 .container {
   width: 100%;
   max-width: 1158px;
-  /* width: 1284px */
   padding: 0 15px;
   margin: 0 auto;
 }
 
 /* HEADER */
+
+.header-container {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
 
 .header {
   display: flex;
@@ -43,6 +57,7 @@ img {
 
 .header-menu {
   display: flex;
+  gap: 40px;
 }
 
 .header-nav {
@@ -88,6 +103,10 @@ img {
 .address {
   font-style: normal;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 .adsress-contact {
   color: #434455;
   font-size: 16px;
@@ -95,7 +114,9 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
+  flex-grow: 1;
 }
+
 .adsress-contact:hover,
 .adsress-contact:focus {
   color: #404bbf;
@@ -126,7 +147,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: #4d5ae5;
-  cursor: pointer;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
